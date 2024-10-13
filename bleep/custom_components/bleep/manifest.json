@@ -1,0 +1,11 @@
+{
+  "codeowners": ["@magicus"],
+  "config_flow": false,
+  "dependencies": [],
+  "documentation": "https://github.com/magicus/ha-bleep/",
+  "domain": "bleep",
+  "iot_class": "calculated",
+  "name": "HA bleep (BLE ePaper)",
+  "requirements": [],
+  "version": "1.0.0"
+}
