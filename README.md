@@ -1,6 +1,6 @@
-# BLE ePaper for Home Assistant
+<img src="media/bleep-icon.svg" width="100">
 
-![logo](media/bleep-icon.svg)
+# BLE ePaper for Home Assistant
 
 This is a custom integration for Home Assistant that supports BLE (Bluetooth Low Energy) ePaper
 ESL (Electronic Shelf Label) displays.
