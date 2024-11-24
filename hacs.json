@@ -1,5 +1,5 @@
 {
-  "name": "HA bleep (BLE ePaper)",
+  "name": "BLE ePaper",
   "render_readme": true,
   "iot_class": "calculated"
 }
