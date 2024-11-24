@@ -1,11 +1,19 @@
 {
-  "codeowners": ["@magicus"],
-  "config_flow": false,
-  "dependencies": [],
-  "documentation": "https://github.com/magicus/ha-bleep/",
   "domain": "bleep",
-  "iot_class": "calculated",
-  "name": "HA bleep (BLE ePaper)",
+  "name": "BLE ePaper",
+  "codeowners": ["@magicus"],
+  "documentation": "https://github.com/magicus/ha-bleep",
+  "issue_tracker": "https://github.com/magicus/ha-bleep/issues",
+  "iot_class": "local_polling",
+  "integration_type": "device",
+  "config_flow": false,
+  "bluetooth": [
+    {
+      "connectable": true,
+      "service_uuid": "0000fef0-0000-1000-8000-00805f9b34fb"
+    }
+  ],
+  "dependencies": [],
   "requirements": [],
-  "version": "1.0.0"
+  "version": "0.1.0"
 }
